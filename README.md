@@ -1,14 +1,14 @@
-# template-vue-dashboard
+# vue-openlayers
 
-[![Website mi-sec.github.io](https://img.shields.io/website-up-down-green-red/https/mi-sec.github.io/template-vue-dashboard.svg)](https://mi-sec.github.io/template-vue-dashboard/)
+[![Website mi-sec.github.io](https://img.shields.io/website-up-down-green-red/https/mi-sec.github.io/vue-openlayers.svg)](https://mi-sec.github.io/vue-openlayers/)
 
-[![Generate GitHub Pages Example](https://github.com/mi-sec/template-vue-dashboard/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/mi-sec/template-vue-dashboard/actions/workflows/gh-pages.yml)
+[![Generate GitHub Pages Example](https://github.com/mi-sec/vue-openlayers/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/mi-sec/vue-openlayers/actions/workflows/gh-pages.yml)
 
 Testing:
 
-[![ESLint Test](https://github.com/mi-sec/template-vue-dashboard/actions/workflows/lint.yml/badge.svg)](https://github.com/mi-sec/template-vue-dashboard/actions/workflows/lint.yml)
+[![ESLint Test](https://github.com/mi-sec/vue-openlayers/actions/workflows/lint.yml/badge.svg)](https://github.com/mi-sec/vue-openlayers/actions/workflows/lint.yml)
 
-[![User Acceptance Testing](https://github.com/mi-sec/template-vue-dashboard/actions/workflows/user-acceptance-testing.yml/badge.svg)](https://github.com/mi-sec/template-vue-dashboard/actions/workflows/user-acceptance-testing.yml)
+[![User Acceptance Testing](https://github.com/mi-sec/vue-openlayers/actions/workflows/user-acceptance-testing.yml/badge.svg)](https://github.com/mi-sec/vue-openlayers/actions/workflows/user-acceptance-testing.yml)
 
 Template Vue.js Application
 
@@ -31,8 +31,8 @@ the following applications are required to run in `production`:
 
 ```
 # clone full-stack template
-git clone git@github.com:mi-sec/template-vue-dashboard.git
-cd template-vue-dashboard/
+git clone git@github.com:mi-sec/vue-openlayers.git
+cd vue-openlayers/
 ```
 
 Project setup

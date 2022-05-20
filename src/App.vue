@@ -3,7 +3,7 @@
         <Sidebar/>
         <Toolbar/>
         <v-main>
-            <v-container fluid ma-0 pa-0>
+            <v-container fluid class="ma-0 pa-0">
                 <router-view></router-view>
             </v-container>
         </v-main>
