@@ -1,0 +1,74 @@
+{
+    "name": "template-vue-dashboard",
+    "version": "1.1.0",
+    "private": true,
+    "description": "Basic vue dashboard",
+    "author": "MI-SEC",
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build --mode production",
+        "test:uat": "npx cucumber-js ./tests/uat/*.feature",
+        "test:unit": "vue-cli-service test:unit",
+        "lint": "vue-cli-service lint",
+        "build-docker": "vue-cli-service build && [ -d build ] || mkdir build && mv dist/* build/"
+    },
+    "dependencies": {
+        "@mdi/font": "^6.6.96",
+        "axios": "^0.27.2",
+        "moment": "^2.29.3",
+        "pino": "^7.11.0",
+        "vue": "^2.6.14",
+        "vuetify": "^2.6.5",
+        "vuex": "^3.6.2",
+        "vuex-router-sync": "^5.0.0"
+    },
+    "devDependencies": {
+        "@babel/eslint-parser": "^7.17.0",
+        "@babel/parser": "^7.17.10",
+        "@cucumber/cucumber": "^8.2.0",
+        "@vue/cli-plugin-babel": "^5.0.4",
+        "@vue/cli-plugin-eslint": "^5.0.4",
+        "@vue/cli-plugin-unit-mocha": "^4.5.17",
+        "@vue/cli-service": "^5.0.4",
+        "@vue/test-utils": "^2.0.0-rc.21",
+        "chai": "^4.3.6",
+        "eslint": "^7.16.3",
+        "eslint-plugin-vue": "^8.7.1",
+        "jest": "^28.1.0",
+        "jest-puppeteer": "^6.1.0",
+        "mime-types": "^2.1.35",
+        "playwright": "^1.21.1",
+        "puppeteer": "^14.0.0",
+        "sass": "^1.51.0",
+        "sass-loader": "^12.6.0",
+        "sinon": "^14.0.0",
+        "sinon-chai": "^3.7.0",
+        "vue-cli-plugin-vuetify": "^2.4.8",
+        "vue-router": "^3.5.3",
+        "vue-template-compiler": "^2.6.14",
+        "vuetify-loader": "^1.7.3"
+    },
+    "postcss": {
+        "plugins": {
+            "autoprefixer": {}
+        }
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions"
+    ],
+    "bugs": {
+        "url": "https://github.com/mi-sec/template-vue-dashboard/issues"
+    },
+    "homepage": "https://github.com/mi-sec/template-vue-dashboard#readme",
+    "keywords": [
+        "vue",
+        "dashboard",
+        "template"
+    ],
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mi-sec/template-vue-dashboard.git"
+    }
+}
